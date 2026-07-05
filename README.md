@@ -13,8 +13,8 @@ An AI-powered recipe generator built with **React**, **Vite**, and the **Hugging
 
 ## 📸 Preview
 <p align="center">
-  <img src="./assets/screenshot1.png" width="45%" alt="Home Screen">
-  <img src="./assets/screenshot2.png" width="45%" alt="Generated Recipe">
+  <img src="./assets/screenshot1.png" width="45%" heigt="60%" alt="Home Screen">
+  <img src="./assets/screenshot2.png" width="45%" heigt="60%" alt="Generated Recipe">
 </p>
 
 ---
