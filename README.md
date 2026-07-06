@@ -11,6 +11,16 @@ An AI-powered recipe generator built with **React**, **Vite**, and the **Hugging
 
 ---
 
+## 🤖 How It Works
+
+1. Add ingredients from your kitchen.
+2. Once you have at least four ingredients, click **Get a Recipe**.
+3. Your ingredients are sent to the **Hugging Face Inference API**.
+4. A large language model generates a complete recipe in Markdown.
+5. The recipe is rendered beautifully inside the application.
+
+---
+
 ## 📸 Preview
 
 <p align="center">
@@ -131,10 +141,8 @@ This project requires a Hugging Face API key.
 Create a `.env` file in the project root:
 
 ```env
-VITE_API_KEY=your_huggingface_api_key
+VITE_API_KEY=your_api_key
 ```
-
-> **Note:** The `.env` file is ignored by Git and should never be committed.
 
 ---
 
@@ -151,44 +159,6 @@ Open your browser:
 ```text
 http://localhost:5173
 ```
-
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
----
-
-## 🤖 How It Works
-
-1. Add ingredients from your kitchen.
-2. Once you have at least four ingredients, click **Get a Recipe**.
-3. Your ingredients are sent to the **Hugging Face Inference API**.
-4. A large language model generates a complete recipe in Markdown.
-5. The recipe is rendered beautifully inside the application.
-
----
-
-## 🚀 Future Improvements
-
-- ❤️ Favorite recipes
-- 📋 Copy recipe to clipboard
-- 📄 Download recipe as PDF
-- 🛒 Shopping list generator
-- 🌍 Multiple language support
-- 🌙 Dark mode
-- 🎙️ Voice input
-- 🍽️ Dietary preferences (Vegan, Keto, Gluten-Free, etc.)
-- 📸 Generate an AI image of the finished dish
 
 ---
 
